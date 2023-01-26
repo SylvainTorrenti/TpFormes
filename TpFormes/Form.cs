@@ -25,7 +25,7 @@ namespace TpFormes
             if (otherForm != null)
                 return GetSurface().CompareTo(otherForm.GetSurface());
             else
-                throw new ArgumentException("Object is not a Temperature");
+                throw new ArgumentException("L'objet n'est pas une forme");
         }
     }
 }
