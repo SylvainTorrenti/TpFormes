@@ -47,7 +47,7 @@ namespace TpFormes
 
         public override string? ToString()
         {
-            return $"({Abscissa};{Ordered}";
+            return $"({Abscissa};{Ordered})";
         }
 
     }

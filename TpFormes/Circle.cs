@@ -11,9 +11,8 @@ namespace TpFormes
 
         public float Radius { get; private set; }
 
-        public Circle(Point center, float radius)
+        public Circle(Point origin, float radius) : base(origin)
         {
-            Origin = center;
             Radius = radius;
         }
         public override double GetPerimetre()
@@ -27,7 +26,14 @@ namespace TpFormes
 
         public override string? ToString()
         {
-            return $"Cercle ayant pour centre = ({Origin.Abscissa};{Origin.Ordered}), Rayon = {Radius} ";
+            return @$"
+Cercle ayant pour centre = ({Origin.Abscissa};{Origin.Ordered}), Rayon = {Radius} 
+--------------------------------";
         }
+
+
+
+
     }
 }
+
