@@ -1,4 +1,5 @@
 ﻿using TpFormes;
+#region Creation des objets
 Drawing d1 = new Drawing();
 Point p1 = new Point(1, 1);
 Point p2 = new Point(2, 2);
@@ -7,7 +8,8 @@ Circle c1 = new Circle(p2, 6);
 Circle c2 = new Circle(p2, 8);
 Circle c3 = new Circle(p2, 10);
 Circle c4 = new Circle(p2, 12);
-Rectangle r1 = new Rectangle(p1, 5, 2);
+Rectangle r1 = new Rectangle(p1, 5, 2); 
+#endregion
 //Console.WriteLine(c1.ToString());
 //Console.WriteLine($"Le perimetre du cercle est : {c1.GetPerimetre()}");
 //Console.WriteLine("--------------------------------");
